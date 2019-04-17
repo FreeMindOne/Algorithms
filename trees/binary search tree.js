@@ -115,4 +115,3 @@ binary.remove(300);
 //binary.search(50);
 
 binary.showRoot();
-console.log();

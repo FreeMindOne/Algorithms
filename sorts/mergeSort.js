@@ -28,8 +28,4 @@ function merge(leftArray, rightArray) {
   return [...result, ...leftArray.slice(i), ...rightArray.slice(j)];
 }
 
-console.log(merge([-17,8],[3,9]));
-
-
-
 module.exports = mergeSort;

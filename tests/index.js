@@ -3,6 +3,8 @@ const quickSort = require('../sorts/quickSort');
 const insertionSort = require('../sorts/insertionSort');
 const selectionSort = require('../sorts/selectionSort');
 const mergeSort = require('../sorts/mergeSort');
+const bucketSort = require('../sorts/bucketSort');
+const bubbleSort = require('../sorts/bubbleSort');
 
 const testCases = [
   [7, 6, 5, 4, 3, 2, 1],
@@ -11,7 +13,7 @@ const testCases = [
   [-1, -2, -3, -4, -5, -6, -7],
 ];
 
-const sortingFunctions = [insertionSort, selectionSort, mergeSort, quickSort];
+const sortingFunctions = [insertionSort, selectionSort, mergeSort, quickSort, bucketSort, bubbleSort];
 
 sortingFunctions.forEach(sortFunc => {
   describe(`sorting with ${sortFunc.name}`, () => {
