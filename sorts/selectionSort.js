@@ -1,3 +1,6 @@
+// complexity n^2
+// memory constant
+
 function selectionSort(array) {
   for (let i = 0; i < array.length; i++) {
     let min = i; 

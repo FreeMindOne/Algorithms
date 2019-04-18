@@ -204,7 +204,7 @@ avl.add(10);
 avl.delete(30);
 
 
-avl.inOrder(avl.getRoot());
+avl.postOrder(avl.getRoot());
 
 
 console.log(avl.contains(10));

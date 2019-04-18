@@ -1,3 +1,6 @@
+// best n avarege, worst n^2
+// memory constant
+
 function insertionSort(array) {
   for(let i=1; i < array.length; i++) {
     let j = i;

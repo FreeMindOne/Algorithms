@@ -1,3 +1,7 @@
+// true realization of algorithm
+// complexity worst n^2, average n+k, best n+k
+// memory n+k
+
 const insertionSort = require('./insertionSort')
 
 function bucketSort(array) {
